@@ -24,7 +24,7 @@ public class tc {
 	        while (sc2.hasNext()) {
 	            row.add(sc2.next());
 	        }
-	        System.out.print("skriv row nr: ");
+	        System.out.print("skriv row index: ");
 	        Scanner sc_index = new Scanner(System.in);
 	        int index = sc_index.nextInt();
 	        System.out.print("row index("+index+") är: "+row.get(index));
